@@ -33,7 +33,7 @@ public class JsonDataController {
 	@Autowired
 	UserRepository userRepository;
 
-testing
+
 	@RequestMapping(value = "getAllProducts")
 	@ResponseBody
 	public String getAllProductList(HttpServletRequest req, HttpServletResponse resp) throws Exception {
